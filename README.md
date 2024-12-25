@@ -41,6 +41,6 @@
 
 # Demo Video
 Here is a demo of the application:
-![Track Me Demo](/public/Track-me.mp4)
+![Track Me Demo](/public/Trackme.gif)
 
 > The application tracks and displays multiple users on a real-time map.
