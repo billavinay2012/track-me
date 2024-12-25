@@ -1,4 +1,4 @@
-## Track Me Application
+# Track Me Application
 
 # Description
 - Track Me is a real-time location tracking application built using Node.js, Socket.IO, and Leaflet.js. The app allows users to share and view live location updates on an interactive map.
@@ -39,7 +39,8 @@
         Latitude: 40.7128, Longitude: -74.0060 (New York City, USA)
         Reload the tabs to view markers for each simulated location.
 
-## Demo Video
-[![Track Me Demo](https://drive.google.com/file/d/1A3IpJL6eaTV_Giyyww8FIUTpKvtxZR9B/view?usp=drive_link)](https://drive.google.com/file/d/1A3IpJL6eaTV_Giyyww8FIUTpKvtxZR9B/view?usp=drive_link)
+# Demo Video
+Here is a demo of the application:
+![Track Me Demo](/public/Track-me.gif)
 
-> Clone this repository and play the video locally to view the app in action.
+> The application tracks and displays multiple users on a real-time map.
