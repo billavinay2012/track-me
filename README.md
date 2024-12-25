@@ -1,44 +1,45 @@
-Track Me Application
-Description
-Track Me is a real-time location tracking application built using Node.js, Socket.IO, and Leaflet.js. The app allows users to share and view live location updates on an interactive map.
+## Track Me Application
 
-Features
-Real-time location sharing.
-Interactive map powered by Leaflet.js.
-Supports multiple users (demonstrated via dummy data).
-Prerequisites
-Ensure the following are installed on your system:
+# Description
+- Track Me is a real-time location tracking application built using Node.js, Socket.IO, and Leaflet.js. The app allows users to share and view live location updates on an interactive map.
 
-Node.js (version 16 or later)
-npm (comes with Node.js)
-Basic understanding of terminal/command-line.
-Installation and Setup
-Download and Extract the Project
+# Features
+- 🗺️ Real-Time Location Sharing: Share and track live user locations.
+- 🌍 Interactive Map: Built with Leaflet.js for seamless user interaction.
+- 👥 Multi-User Support: View multiple users on the same map (demonstrated with dummy data).
 
-Extract the contents of the provided track-me.zip file.
-Navigate to the Project Directory
+# Prerequisites
+- Before you begin, ensure you have the following installed on your system:
+- - Node.js (v16 or higher)
+- - npm (comes bundled with Node.js)
+- - Basic terminal/command-line skills
+- - Installation and Setup
+- - Download and Extract the Project or Clone the Project
 
-bash
-Copy code
-cd track-me
-Install Dependencies
+- Extract the contents of the provided track-me.zip file into a folder.
 
-bash
-Copy code
-npm install
-Start the Application
+# Navigate to the Project Directory
+- Copy code
+- cd track-me
+- Install Dependencies by running - npm i
+- Start the Application by running -  npx nodemon app.hjs
 
-bash
-Copy code
-npm start
-Access the App
+# Access the App
+- Open your browser and visit: http://localhost:3000
 
-Open your browser and go to http://localhost:3000.
-Adding Dummy Locations (For Testing)
-To test with multiple users or static locations:
+# Testing with Dummy Locations
+- To test the app with multiple users:
+- Open Multiple Tabs:
+- Open multiple browser tabs pointing to http://localhost:3000.
+- Use Dummy Data:
+- - Add the following latitude/longitude values in your script.js file for static location testing:
+        Location 1:
+        Latitude: 37.7749, Longitude: -122.4194 (San Francisco, USA)
+        Location 2:
+        Latitude: 40.7128, Longitude: -74.0060 (New York City, USA)
+        Reload the tabs to view markers for each simulated location.
 
-Open multiple browser tabs pointing to http://localhost:3000.
-Use the following dummy locations in your code (e.g., for testing markers):
-Location 1: Latitude 37.7749, Longitude -122.4194 (San Francisco, USA)
-Location 2: Latitude 40.7128, Longitude -74.0060 (New York City, USA)
-Update the locations in the script.js file accordingly.
+## Demo Video
+[![Track Me Demo](https://drive.google.com/file/d/1A3IpJL6eaTV_Giyyww8FIUTpKvtxZR9B/view?usp=drive_link)](https://drive.google.com/file/d/1A3IpJL6eaTV_Giyyww8FIUTpKvtxZR9B/view?usp=drive_link)
+
+> Clone this repository and play the video locally to view the app in action.

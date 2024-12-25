@@ -9,7 +9,7 @@ if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(
     (position) => {
       const { latitude, longitude } = position.coords;
-      map = L.map("map").setView([latitude, longitude], 16);
+      map = L.map("map").setView([latitude, longitude], 8);
 
       // Emit the user's location to the server
       socket.emit("send-location", { latitude, longitude });
